@@ -1,0 +1,77 @@
+cmc 
+===
+
+Introduction:
+cmc is a program to generate midi files from carnatic music notation.  You
+just create a text file containing the notes for a song ("notation file")
+and pass it as input to the program.  cmc will generate the respective midi
+file as output.
+(Note: cmc doesn't actually *play* the midi file. It just creates a file
+which can be played using any midi player)
+
+Installation:
+cmc as distributed as source code.
+Building the software from its sources is fairly straightforward.
+Just unpack the source archive into a directory, visit the directory and
+issue the 'make' command.
+The code is written in ansi-compliant C, which basically means it should
+compile cleanly under any ansi C compiler.
+gcc would probably be your best choice, although I have gotten the code to
+compile cleanly under Visual C++ as well.
+
+
+Usage:
+
+$cmc <input file(s)> -o <outputfile>
+
+If you specify more than one input file, the contents of each file will be
+transcribed into a seperate track in the output midi file.
+If you don't specify an output file, the midi data is written to stdout.
+You can also pipe the music notation into cmc as stdin:
+
+$cat notation_file | cmc > output.midi
+
+
+Playing midi files:
+The midi files created by cmc should be playable from any midi player.
+
+If you are running cmc on a Unix-style system, I recommend using timidity
+to play your midi files. It uses soundfonts to convert the midi to wave
+format in real time while playing. It also has a flexible commandline
+interface. You could do the following:
+
+$cmc input.notes | timidity -
+
+You can get the latest version of timidity at:
+http://www.goice.co.jp/member/mo/timidity/
+
+
+
+Features:
+cmc can create a multi-track midi file from several input notation files.
+The notation file layout is simple but extremely flexible.
+It's a free-format file allowing you to layout the notes as you see fit.
+You can also change the volume, pan and instrument to use at any give time.
+You can insert text markers in the notation file which will be included in
+the midi file.  If your midi player software supports it, these pieces of
+text will be displayed at the appropriate time. (These text markers are
+frequently used to create 'lyrics' that can be displayed as the midi file
+plays)
+The program is non-interactive and can be easily manipulated from the
+command-line.
+
+Drawbacks\Bugs:
+This program is a work in progress, and as such, certain features are yet
+to be implemented.
+
+1) The midi format was basically designed for wester music. It's not really
+expressive enough to faithfully reproduce carnatic music. In particular,
+support for "gamakams" is virtually non-existant. There are tricks to work
+around this but I've yet to properly implement them.
+Currently gamakams are implemented through portamento events (note
+sliding). The effect isn't quite as good and, infact, at times is downright
+annoying.
+
+2) It would be nice to be able to specify a thalam track that keeps a
+steady beat through out the song.
+

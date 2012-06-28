@@ -1,0 +1,337 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.5.2	//
+BASE	scanner.h	/^	INSTRUMENT, TEMPO, VOLUME, BASE, PAN$/;"	e	enum:token_t
+BEATS	cmc.c	224;"	d	file:
+BRACECLOSE	scanner.h	/^	BRACEOPEN, BRACECLOSE, ERROR, LYRIC, FLOAT, EQUAL, STAR, PIPE, $/;"	e	enum:token_t
+BRACEOPEN	scanner.h	/^	BRACEOPEN, BRACECLOSE, ERROR, LYRIC, FLOAT, EQUAL, STAR, PIPE, $/;"	e	enum:token_t
+CC	Makefile	/^CC=gcc$/;"	m
+CFLAGS	Makefile	/^CFLAGS=-Wall -g -c -DDEBUG  -ansi -DPROG_NAME=\\"cmc\\" -DHAVE_ISATTY$/;"	m
+COLON	scanner.h	/^	NONE, COMMENT, STRING, NOTE, IDENTIFIER, NUMBER, COMMA, COLON,$/;"	e	enum:token_t
+COMMA	scanner.h	/^	NONE, COMMENT, STRING, NOTE, IDENTIFIER, NUMBER, COMMA, COLON,$/;"	e	enum:token_t
+COMMENT	scanner.h	/^	NONE, COMMENT, STRING, NOTE, IDENTIFIER, NUMBER, COMMA, COLON,$/;"	e	enum:token_t
+CONTROLLER_BALANCE	midi.h	47;"	d
+CONTROLLER_BANK_SELECT_LSB	midi.h	40;"	d
+CONTROLLER_BANK_SELECT_MSB	midi.h	39;"	d
+CONTROLLER_BREATH	midi.h	42;"	d
+CONTROLLER_CHANNEL_VOLUME	midi.h	46;"	d
+CONTROLLER_DAMPER_PEDAL	midi.h	54;"	d
+CONTROLLER_DATA_DECREMENT	midi.h	62;"	d
+CONTROLLER_DATA_ENTRY_MSB	midi.h	45;"	d
+CONTROLLER_DATA_INCREMENT	midi.h	61;"	d
+CONTROLLER_EFFECT1	midi.h	50;"	d
+CONTROLLER_EFFECT2	midi.h	51;"	d
+CONTROLLER_EXPRESSION	midi.h	49;"	d
+CONTROLLER_FOOT	midi.h	43;"	d
+CONTROLLER_HOLD2	midi.h	59;"	d
+CONTROLLER_LEGATO	midi.h	58;"	d
+CONTROLLER_MODULATION_WHEEL	midi.h	41;"	d
+CONTROLLER_NRPN_LSB	midi.h	63;"	d
+CONTROLLER_NRPN_MSB	midi.h	64;"	d
+CONTROLLER_PAN	midi.h	48;"	d
+CONTROLLER_PORTAMENTO	midi.h	60;"	d
+CONTROLLER_PORTAMENTO_SWITCH	midi.h	55;"	d
+CONTROLLER_PORTAMENTO_TIME	midi.h	44;"	d
+CONTROLLER_RPN_LSB	midi.h	65;"	d
+CONTROLLER_RPN_MSG	midi.h	66;"	d
+CONTROLLER_SOFT_PEDAL	midi.h	57;"	d
+CONTROLLER_SOSTENUTO	midi.h	56;"	d
+DEF_INSTRUMENT	cmc.c	22;"	d	file:
+DIVISION_NONE	midi.h	16;"	d
+DIVISION_TPF	midi.h	15;"	d
+DIVISION_TQN	midi.h	14;"	d
+DT	cmc.c	223;"	d	file:
+EQUAL	scanner.h	/^	BRACEOPEN, BRACECLOSE, ERROR, LYRIC, FLOAT, EQUAL, STAR, PIPE, $/;"	e	enum:token_t
+ERROR	scanner.h	/^	BRACEOPEN, BRACECLOSE, ERROR, LYRIC, FLOAT, EQUAL, STAR, PIPE, $/;"	e	enum:token_t
+EVENT_TYPE_META	midi.h	23;"	d
+EVENT_TYPE_MODE	midi.h	21;"	d
+EVENT_TYPE_SYSEX	midi.h	22;"	d
+EVENT_TYPE_UNKNOWN	midi.h	24;"	d
+EVENT_TYPE_VOICE	midi.h	20;"	d
+EXTRA_CHANNEL	cmc.c	20;"	d	file:
+FLAG	cmc.c	72;"	d	file:
+FLOAT	scanner.h	/^	BRACEOPEN, BRACECLOSE, ERROR, LYRIC, FLOAT, EQUAL, STAR, PIPE, $/;"	e	enum:token_t
+HEADER_CHUNK	midi.h	10;"	d
+IDENTIFIER	scanner.h	/^	NONE, COMMENT, STRING, NOTE, IDENTIFIER, NUMBER, COMMA, COLON,$/;"	e	enum:token_t
+INSTRUMENT	scanner.h	/^	INSTRUMENT, TEMPO, VOLUME, BASE, PAN$/;"	e	enum:token_t
+INSTRUMENT_COUNT	util.h	4;"	d
+LYRIC	scanner.h	/^	BRACEOPEN, BRACECLOSE, ERROR, LYRIC, FLOAT, EQUAL, STAR, PIPE, $/;"	e	enum:token_t
+MALLOC_H_DEF	stream.h	24;"	d
+MAX_TRACK_COUNT	cmc.c	19;"	d	file:
+META_EVENT	midi.h	/^typedef struct midimetaevent_t  META_EVENT;$/;"	t
+META_EVENT_CHANNEL_PREFIX	midi.h	95;"	d
+META_EVENT_COPYRIGHT	midi.h	89;"	d
+META_EVENT_COUNT	midi.h	104;"	d
+META_EVENT_CUE	midi.h	94;"	d
+META_EVENT_EOT	midi.h	96;"	d
+META_EVENT_INSTRUMENT_NAME	midi.h	91;"	d
+META_EVENT_KEY_SIGNATURE	midi.h	100;"	d
+META_EVENT_LYRIC	midi.h	92;"	d
+META_EVENT_MARKER	midi.h	93;"	d
+META_EVENT_SEQUENCE	midi.h	87;"	d
+META_EVENT_SET_TEMPO	midi.h	97;"	d
+META_EVENT_SMTPE_OFFSET	midi.h	98;"	d
+META_EVENT_SPECIFIC	midi.h	101;"	d
+META_EVENT_TEXT	midi.h	88;"	d
+META_EVENT_TIME_SIGNATURE	midi.h	99;"	d
+META_EVENT_TRACK_NAME	midi.h	90;"	d
+META_EVENT_UNKNOWN	midi.h	102;"	d
+MIDI_CHUNK	midi.h	/^typedef struct midichunk_t   MIDI_CHUNK;$/;"	t
+MIDI_ERROR_BAD_FORMAT	midi.h	121;"	d
+MIDI_ERROR_CHUNK_EMPTY	midi.h	110;"	d
+MIDI_ERROR_CHUNK_TYPE	midi.h	111;"	d
+MIDI_ERROR_HEADER	midi.h	120;"	d
+MIDI_ERROR_NOT_HEADER_CHUNK	midi.h	119;"	d
+MIDI_ERROR_NOT_TRACK_CHUNK	midi.h	118;"	d
+MIDI_ERROR_NO_EOT	midi.h	117;"	d
+MIDI_ERROR_STR	midi.c	/^const char * MIDI_ERROR_STR[0xe] = {$/;"	v
+MIDI_ERROR_UNKNOWN_EVENT	midi.h	116;"	d
+MIDI_ERROR_UNKNOWN_META_EVENT	midi.h	109;"	d
+MIDI_ERROR_UNKNOWN_MODE	midi.h	115;"	d
+MIDI_ERROR_UNKNOWN_VOICE	midi.h	114;"	d
+MIDI_ERROR_VOICE_1	midi.h	112;"	d
+MIDI_ERROR_VOICE_2	midi.h	113;"	d
+MIDI_EVENT	midi.h	/^typedef struct midievent_t	 MIDI_EVENT;$/;"	t
+MIDI_FILE	midi.h	/^typedef struct midifile_t    MIDI_FILE;$/;"	t
+MIDI_META_EVENTS	midi.c	/^const unsigned char MIDI_META_EVENTS[META_EVENT_COUNT][2] = {$/;"	v
+MIDI_MODE_EVENTS	midi.c	/^const unsigned char MIDI_MODE_EVENTS[MODE_EVENT_COUNT][2] = {$/;"	v
+MIDI_TRACK	midi.h	/^typedef struct miditrack_t   MIDI_TRACK;$/;"	t
+MIDI_VOICE_EVENTS	midi.c	/^const unsigned char MIDI_VOICE_EVENTS[VOICE_EVENT_COUNT][4] = {$/;"	v
+MODE_EVENT	midi.h	/^typedef struct midimodeevent_t MODE_EVENT;$/;"	t
+MODE_EVENT_COUNT	midi.h	80;"	d
+MODE_EVENT_LOCAL_CONTROL	midi.h	73;"	d
+MODE_EVENT_MONO_ON	midi.h	77;"	d
+MODE_EVENT_NOTES_OFF	midi.h	74;"	d
+MODE_EVENT_OMNI_OFF	midi.h	75;"	d
+MODE_EVENT_OMNI_ON	midi.h	76;"	d
+MODE_EVENT_POLY_ON	midi.h	78;"	d
+MODE_EVENT_RESET_CONTROLLERS	midi.h	72;"	d
+MODE_EVENT_SOUND_OFF	midi.h	71;"	d
+MODE_EVENT_UNKNOWN	midi.h	81;"	d
+NONE	scanner.h	/^	NONE, COMMENT, STRING, NOTE, IDENTIFIER, NUMBER, COMMA, COLON,$/;"	e	enum:token_t
+NOTE	scanner.h	/^	NONE, COMMENT, STRING, NOTE, IDENTIFIER, NUMBER, COMMA, COLON,$/;"	e	enum:token_t
+NUMBER	scanner.h	/^	NONE, COMMENT, STRING, NOTE, IDENTIFIER, NUMBER, COMMA, COLON,$/;"	e	enum:token_t
+PAN	scanner.h	/^	INSTRUMENT, TEMPO, VOLUME, BASE, PAN$/;"	e	enum:token_t
+PIPE	scanner.h	/^	BRACEOPEN, BRACECLOSE, ERROR, LYRIC, FLOAT, EQUAL, STAR, PIPE, $/;"	e	enum:token_t
+SCANER_STATE	scanner.h	/^typedef enum scanner_state_t SCANER_STATE;$/;"	t
+SCANNER	scanner.h	/^typedef struct scanner_t SCANNER;$/;"	t
+STAR	scanner.h	/^	BRACEOPEN, BRACECLOSE, ERROR, LYRIC, FLOAT, EQUAL, STAR, PIPE, $/;"	e	enum:token_t
+STATE_DIRECTIVE	scanner.h	/^	STATE_DIRECTIVE,$/;"	e	enum:scanner_state_t
+STATE_NOTATION	scanner.h	/^	STATE_NOTATION$/;"	e	enum:scanner_state_t
+STREAM	stream.h	/^}STREAM;$/;"	t
+STRING	scanner.h	/^	NONE, COMMENT, STRING, NOTE, IDENTIFIER, NUMBER, COMMA, COLON,$/;"	e	enum:token_t
+SYSEX_EVENT	midi.h	/^typedef struct midisysexevent_t SYSEX_EVENT;$/;"	t
+TEMPO	scanner.h	/^	INSTRUMENT, TEMPO, VOLUME, BASE, PAN$/;"	e	enum:token_t
+TOKEN_TYPE	scanner.h	/^typedef enum token_t TOKEN_TYPE;$/;"	t
+TRACK_CHUNK	midi.h	11;"	d
+UNKNOWN_CHUNK	midi.h	12;"	d
+UTIL_H_	util.h	3;"	d
+VARINT	cmc.c	86;"	d	file:
+VARSTR	cmc.c	78;"	d	file:
+VOICE_EVENT	midi.h	/^typedef struct midivoiceevent_t VOICE_EVENT;$/;"	t
+VOICE_EVENT_CHANNEL_PRESSURE	midi.h	31;"	d
+VOICE_EVENT_CONTROLLER	midi.h	29;"	d
+VOICE_EVENT_COUNT	midi.h	34;"	d
+VOICE_EVENT_NOTE_OFF	midi.h	26;"	d
+VOICE_EVENT_NOTE_ON	midi.h	27;"	d
+VOICE_EVENT_PITCH_BEND	midi.h	32;"	d
+VOICE_EVENT_POLYPHONIC_PRESSURE	midi.h	28;"	d
+VOICE_EVENT_PROGRAM	midi.h	30;"	d
+VOICE_EVENT_UNKNOWN	midi.h	36;"	d
+VOLUME	scanner.h	/^	INSTRUMENT, TEMPO, VOLUME, BASE, PAN$/;"	e	enum:token_t
+_MIDI_H_	midi.h	6;"	d
+_SCANNER_H_	scanner.h	2;"	d
+_STREAM	stream.h	/^typedef struct _STREAM$/;"	s
+_STREAM_H_	stream.h	2;"	d
+_nexttoken	scanner.c	/^void _nexttoken(SCANNER *scanner)$/;"	f
+ahead	scanner.h	/^	char ahead;$/;"	m	struct:scanner_t
+allocate	stream.h	18;"	d
+allocate	stream.h	25;"	d
+assert_unreachable	midi.c	10;"	d	file:
+bail	util.c	/^void bail(const char * text,...)$/;"	f
+buffer	midi.h	/^	char * buffer;$/;"	m	struct:midifile_t
+buffer	stream.h	/^	char * buffer; \/* actual data buffer *\/$/;"	m	struct:_STREAM
+capacity	stream.h	/^	size_t capacity; \/* actual capacity of the buffer *\/$/;"	m	struct:_STREAM
+channel	midi.h	/^	unsigned char channel;$/;"	m	struct:midimodeevent_t
+channel	midi.h	/^	unsigned char channel;$/;"	m	struct:midivoiceevent_t
+chunk_size	midi.h	220;"	d
+colcount	scanner.h	/^	int colcount;$/;"	m	struct:scanner_t
+count	scanner.h	/^	int count;$/;"	m	struct:scanner_t
+data	midi.h	/^	char * data; \/* pointer to beginning of original data *\/$/;"	m	struct:midifile_t
+data	midi.h	/^	char * data;$/;"	m	struct:midichunk_t
+data	midi.h	/^	unsigned char * data;$/;"	m	struct:midimetaevent_t
+data	midi.h	/^	unsigned char * data;$/;"	m	struct:midisysexevent_t
+data	midi.h	/^	unsigned char data;$/;"	m	struct:midimodeevent_t
+data1	midi.h	/^	unsigned char data1;$/;"	m	struct:midivoiceevent_t
+data2	midi.h	/^	unsigned char data2;$/;"	m	struct:midivoiceevent_t
+deallocate	stream.h	19;"	d
+deallocate	stream.h	34;"	d
+decode_event_meta	midi.c	/^int decode_event_meta (MIDI_TRACK * mt, MIDI_EVENT * event)$/;"	f
+decode_event_mode	midi.c	/^int decode_event_mode (MIDI_TRACK * mt, MIDI_EVENT * event, unsigned char status)$/;"	f
+decode_event_sysex	midi.c	/^int decode_event_sysex (MIDI_TRACK * mt, MIDI_EVENT * event)$/;"	f
+decode_event_voice	midi.c	/^int decode_event_voice (MIDI_TRACK * mt, MIDI_EVENT * event, unsigned char status)$/;"	f
+delta_time	midi.h	/^	unsigned long delta_time;$/;"	m	struct:midievent_t
+division	midi.h	/^	unsigned int division; \/* Either DIVISION_TQN or DIVISION_TPF *\/$/;"	m	struct:midifile_t
+divisions	cmc.c	/^static unsigned long divisions = 96;$/;"	v	file:
+doit	midi.c	/^void doit(MIDI_FILE * _m,MIDI_EVENT ** events)$/;"	f
+dump_instruments	cmc.c	/^void dump_instruments ()$/;"	f
+eatwhitespace	scanner.c	/^static void eatwhitespace(SCANNER *scanner)$/;"	f	file:
+encode_event	midi.c	/^int encode_event (MIDI_TRACK * mt, MIDI_EVENT * event)$/;"	f
+encode_event_meta	midi.c	/^void encode_event_meta (MIDI_TRACK * mt, META_EVENT * event)$/;"	f
+encode_event_meta_eot	midi.c	/^void encode_event_meta_eot (MIDI_TRACK * mt)$/;"	f
+encode_event_mode	midi.c	/^void encode_event_mode (MIDI_TRACK * mt, MODE_EVENT * event)$/;"	f
+encode_event_sysex	midi.c	/^void encode_event_sysex (MIDI_TRACK * mt, SYSEX_EVENT * event)$/;"	f
+encode_event_voice	midi.c	/^void encode_event_voice (MIDI_TRACK * mt, VOICE_EVENT * event)$/;"	f
+encode_file	cmc.c	/^void encode_file (char ** track_text, size_t track_count)$/;"	f
+encode_lyric	cmc.c	/^void encode_lyric (MIDI_TRACK * mt, char * lyric, size_t len)$/;"	f
+encode_meta	midi.c	/^int encode_meta (MIDI_TRACK * mt, unsigned long delta_time, unsigned char type,$/;"	f
+encode_mode	midi.c	/^int encode_mode (MIDI_TRACK * mt, unsigned long delta_time, unsigned char type,$/;"	f
+encode_sysex	midi.c	/^int encode_sysex (MIDI_TRACK * mt, unsigned long delta_time, unsigned char type,$/;"	f
+encode_track	cmc.c	/^void encode_track (MIDI_TRACK * mt, char * notes, MIDI_TRACK * extra, unsigned char channel)$/;"	f
+encode_voice	midi.c	/^int encode_voice (MIDI_TRACK * mt, unsigned long delta_time,$/;"	f
+event	midi.h	/^	} event;$/;"	m	struct:midievent_t
+file_count	cmc.c	/^static unsigned int file_count = 0;$/;"	v	file:
+filename	scanner.h	/^	char * filename;$/;"	m	struct:scanner_t
+format	midi.h	/^	unsigned int format;$/;"	m	struct:midifile_t
+fps	midi.h	/^	unsigned int fps;  \/* SMTPE frames per second *\/$/;"	m	struct:midifile_t
+free_event_list	midi.c	/^void free_event_list (MIDI_EVENT * event)$/;"	f
+get_event_type	midi.c	/^static int get_event_type (char * buffer)$/;"	f	file:
+get_file_size	midi.c	/^int get_file_size(char *fname)$/;"	f
+in_files	cmc.c	/^static char * in_files[MAX_TRACK_COUNT];$/;"	v	file:
+include_thalam	cmc.c	/^static int include_thalam = 0;$/;"	v	file:
+instrument	cmc.c	/^static char * instrument = NULL;$/;"	v	file:
+instrument_number	util.c	/^unsigned char instrument_number (char * instrument)$/;"	f
+instruments	util.c	/^char * instruments[INSTRUMENT_COUNT] = {$/;"	v
+is_valid_note	scanner.c	/^int is_valid_note (char n)$/;"	f
+isalpha	scanner.c	/^int isalpha(char d)$/;"	f
+isalphanum	scanner.c	/^int isalphanum(char d)$/;"	f
+isnum	scanner.c	/^int isnum(char d)$/;"	f
+iswhitespace	scanner.c	/^static int iswhitespace(SCANNER *scanner, char d)$/;"	f	file:
+length	midi.h	/^	size_t length;$/;"	m	struct:midichunk_t
+length	midi.h	/^	unsigned long length;$/;"	m	struct:midimetaevent_t
+length	midi.h	/^	unsigned long length;$/;"	m	struct:midisysexevent_t
+linecount	scanner.h	/^	int linecount;$/;"	m	struct:scanner_t
+main	cmc.c	/^int main(int argc, char ** argv)$/;"	f
+main	midi.c	/^int main(int argc, char ** argv)$/;"	f
+main	stream.c	/^int main(int argc, char **argv)$/;"	f
+make_header_chunk	midi.c	/^int make_header_chunk (MIDI_FILE * mf, MIDI_CHUNK * chunk)$/;"	f
+make_track_chunk	midi.c	/^int make_track_chunk (MIDI_TRACK * mt, MIDI_CHUNK * chunk)$/;"	f
+match	scanner.c	/^void match (SCANNER * scanner, TOKEN_TYPE token)$/;"	f
+match_stay	scanner.c	/^void match_stay (SCANNER * scanner, TOKEN_TYPE token)$/;"	f
+meta_event	midi.h	/^		META_EVENT  * meta_event;$/;"	m	union:midievent_t::<anonymous>
+meta_event_type	midi.c	/^static unsigned char meta_event_type (unsigned char c)$/;"	f	file:
+midi_error_fun	midi.c	/^static void (*midi_error_fun)(int ,...) = NULL;$/;"	v	file:
+midichunk_t	midi.h	/^struct midichunk_t$/;"	s
+midievent_t	midi.h	/^struct midievent_t$/;"	s
+midifile_t	midi.h	/^struct midifile_t$/;"	s
+midimetaevent_t	midi.h	/^struct midimetaevent_t$/;"	s
+midimodeevent_t	midi.h	/^struct midimodeevent_t$/;"	s
+midisysexevent_t	midi.h	/^struct midisysexevent_t$/;"	s
+miditrack_t	midi.h	/^struct miditrack_t$/;"	s
+midivoiceevent_t	midi.h	/^struct midivoiceevent_t$/;"	s
+mode_event	midi.h	/^		MODE_EVENT  * mode_event;$/;"	m	union:midievent_t::<anonymous>
+mode_event_type	midi.c	/^static unsigned char mode_event_type (unsigned char c)$/;"	f	file:
+next	midi.h	/^	struct midievent_t * next;$/;"	m	struct:midievent_t
+next	midi.h	/^	struct miditrack_t * next; \/* TODO: this is not actually used *\/$/;"	m	struct:miditrack_t
+nextchar	scanner.c	/^static void nextchar(SCANNER *scanner)$/;"	f	file:
+nextchar_dont_consume	scanner.c	/^static void nextchar_dont_consume(SCANNER *scanner)$/;"	f	file:
+nexttoken	scanner.c	/^void nexttoken(SCANNER *scanner)$/;"	f
+note_map2	cmc.c	/^unsigned char note_map2 (char * n)$/;"	f
+offset	stream.h	/^	int offset; \/* current write offset into the buffer *\/$/;"	m	struct:_STREAM
+output_file	cmc.c	/^static char * output_file = NULL;$/;"	v	file:
+parse_args	cmc.c	/^int parse_args (int argc, char ** argv)$/;"	f
+parse_directive	cmc.c	/^void parse_directive (SCANNER * scanner, MIDI_TRACK * mt, unsigned char channel)$/;"	f
+parse_header_chunk	midi.c	/^int parse_header_chunk (MIDI_FILE * mf)$/;"	f
+parse_track_chunk	midi.c	/^MIDI_EVENT *  parse_track_chunk (MIDI_CHUNK * chunk, MIDI_TRACK * mt)$/;"	f
+parse_track_event	midi.c	/^MIDI_EVENT * parse_track_event (MIDI_TRACK * mt)$/;"	f
+parse_track_events	midi.c	/^MIDI_EVENT * parse_track_events (MIDI_TRACK * mt)$/;"	f
+portamento	cmc.c	/^static int portamento = 1;$/;"	v	file:
+pos	midi.h	/^	int pos;$/;"	m	struct:midifile_t
+print4	midi.h	218;"	d
+print_error	scanner.c	/^static void print_error (SCANNER * scanner)$/;"	f	file:
+print_midi_file	midi.c	/^void print_midi_file (MIDI_FILE * mf)$/;"	f
+print_usage	cmc.c	/^void print_usage() $/;"	f
+printe	midi.c	/^void printe(const char * text,...)$/;"	f
+r_offset	stream.h	/^	int r_offset; \/* current read offset into the buffer *\/$/;"	m	struct:_STREAM
+read16	midi.h	215;"	d
+read32	midi.h	212;"	d
+read_chunk	midi.c	/^int read_chunk (MIDI_FILE * mf, MIDI_CHUNK * chunk)$/;"	f
+read_file	midi.c	/^char *read_file(char *filename)$/;"	f
+readstream	midi.c	322;"	d	file:
+reallocate	stream.h	20;"	d
+reallocate	stream.h	43;"	d
+register_	scanner.c	218;"	d	file:
+scan_note	scanner.c	/^static void scan_note (SCANNER * scanner)$/;"	f	file:
+scanbraceclose	scanner.c	/^static void scanbraceclose(SCANNER *scanner)$/;"	f	file:
+scanbraceopen	scanner.c	/^static void scanbraceopen(SCANNER *scanner)$/;"	f	file:
+scancolon	scanner.c	/^static void scancolon(SCANNER *scanner)$/;"	f	file:
+scancomma	scanner.c	/^static void scancomma(SCANNER *scanner)$/;"	f	file:
+scancomment	scanner.c	/^static void scancomment(SCANNER *scanner)$/;"	f	file:
+scandef	scanner.c	/^void scandef(SCANNER *scanner)$/;"	f
+scanequal	scanner.c	/^static void scanequal(SCANNER *scanner)$/;"	f	file:
+scanident	scanner.c	/^static void scanident(SCANNER *scanner)$/;"	f	file:
+scanner_init	scanner.c	/^void scanner_init (SCANNER * scanner, const char * text)$/;"	f
+scanner_state_t	scanner.h	/^enum scanner_state_t {$/;"	g
+scanner_t	scanner.h	/^struct scanner_t$/;"	s
+scannull	scanner.c	/^static void scannull(SCANNER *scanner)$/;"	f	file:
+scannumber	scanner.c	/^static void scannumber(SCANNER *scanner)$/;"	f	file:
+scanpipe	scanner.c	/^static void scanpipe (SCANNER * scanner)$/;"	f	file:
+scanstar	scanner.c	/^static void scanstar (SCANNER * scanner)$/;"	f	file:
+scanstring	scanner.c	/^static void scanstring(SCANNER *scanner)$/;"	f	file:
+simple_usage	cmc.c	/^void simple_usage()$/;"	f
+size	midi.h	/^	size_t size;$/;"	m	struct:midifile_t
+size	stream.h	/^	size_t size; \/* the largest offset written to in the buffer *\/$/;"	m	struct:_STREAM
+state	scanner.h	/^	enum scanner_state_t state;$/;"	m	struct:scanner_t
+stream	midi.h	/^	STREAM * stream; \/* arbitrary data written using one of the encode_event functions *\/$/;"	m	struct:miditrack_t
+stream_add_char	stream.c	/^int stream_add_char(STREAM *stream,unsigned char ch)$/;"	f
+stream_add_str	stream.h	74;"	d
+stream_copy_buffer	stream.c	/^char * stream_copy_buffer (STREAM * stream)$/;"	f
+stream_copy_from_io	stream.c	/^int stream_copy_from_io (STREAM * stream, FILE * io)$/;"	f
+stream_create	stream.c	/^STREAM * stream_create (size_t size)$/;"	f
+stream_create_from_buffer	stream.c	/^STREAM * stream_create_from_buffer (const char * buffer, size_t buf_len)$/;"	f
+stream_current_position	stream.c	/^char * stream_current_position (STREAM * stream)$/;"	f
+stream_data	stream.c	/^char * stream_data(STREAM *stream)$/;"	f
+stream_end	stream.h	76;"	d
+stream_expand	stream.c	/^static int stream_expand(STREAM * stream, size_t new_capacity)$/;"	f	file:
+stream_free	stream.c	/^void stream_free(STREAM *stream)$/;"	f
+stream_load_from_file	stream.c	/^STREAM * stream_load_from_file (char * filename)$/;"	f
+stream_read	stream.c	/^int stream_read (STREAM * stream, char * buffer, size_t len)$/;"	f
+stream_read_char	stream.c	/^int stream_read_char (STREAM * stream, unsigned char * c)$/;"	f
+stream_read_variable	midi.c	/^static unsigned long stream_read_variable (STREAM * stream)$/;"	f	file:
+stream_write	stream.c	/^size_t stream_write(STREAM *stream,const char *data,size_t len)$/;"	f
+stream_write_int_reverse	stream.c	/^int stream_write_int_reverse (STREAM * stream, int i, size_t int_size)$/;"	f
+stream_write_reset	stream.c	/^void stream_write_reset (STREAM * stream)$/;"	f
+stream_write_to_file	stream.c	/^int stream_write_to_file (STREAM * stream, char * filename)$/;"	f
+stream_write_to_io	stream.c	/^int stream_write_to_io (STREAM * stream, FILE * io)$/;"	f
+stream_write_variable	midi.c	/^static int stream_write_variable (STREAM * stream, unsigned int i)$/;"	f	file:
+sysex_event	midi.h	/^		SYSEX_EVENT * sysex_event;$/;"	m	union:midievent_t::<anonymous>
+text	scanner.h	/^	STREAM * text;$/;"	m	struct:scanner_t
+token	scanner.h	/^	STREAM * token;$/;"	m	struct:scanner_t
+token_t	scanner.h	/^enum token_t$/;"	g
+tokenid	scanner.h	/^	enum token_t tokenid;$/;"	m	struct:scanner_t
+tpf	midi.h	/^	unsigned int tpf;  \/* ticks per SMTPE frame *\/$/;"	m	struct:midifile_t
+tpqn	midi.h	/^	unsigned int tpqn; \/* ticks per quarter note *\/$/;"	m	struct:midifile_t
+tracks	midi.h	/^	size_t tracks;$/;"	m	struct:midifile_t
+type	midi.h	/^	int  type;$/;"	m	struct:midichunk_t
+type	midi.h	/^	int type;$/;"	m	struct:midievent_t
+type	midi.h	/^	unsigned char type;$/;"	m	struct:midimetaevent_t
+type	midi.h	/^	unsigned char type;$/;"	m	struct:midimodeevent_t
+type	midi.h	/^	unsigned char type;$/;"	m	struct:midisysexevent_t
+type	midi.h	/^	unsigned char type;$/;"	m	struct:midivoiceevent_t
+unknown_type	midi.h	/^	unsigned char unknown_type;$/;"	m	struct:midimetaevent_t
+validate_chunk	midi.c	/^int validate_chunk (MIDI_CHUNK * mc)$/;"	f
+validate_text_event_type	midi.h	126;"	d
+voice_event	midi.h	/^		VOICE_EVENT * voice_event;$/;"	m	union:midievent_t::<anonymous>
+voice_event_type	midi.c	/^static unsigned char voice_event_type (unsigned char c)$/;"	f	file:
+write_chunk	midi.c	/^int write_chunk (char * buffer, MIDI_CHUNK * chunk)$/;"	f
+write_chunk_to_stream	midi.c	/^int write_chunk_to_stream (STREAM * stream, MIDI_CHUNK * chunk)$/;"	f
+write_header_chunk	midi.c	/^int write_header_chunk (STREAM * stream, MIDI_FILE * mf)$/;"	f
+write_int_reverse	midi.c	/^static int write_int_reverse (char * buffer, int i, size_t int_size)$/;"	f	file:
+write_track_chunk	midi.c	/^int write_track_chunk (STREAM * stream, MIDI_TRACK * mt)$/;"	f
+xfree	util.c	/^void xfree (void * ptr)$/;"	f
+xmalloc	util.c	/^void * xmalloc (size_t size)$/;"	f
+xrealloc	util.c	/^void * xrealloc (void * ptr, size_t size)$/;"	f
+xstrdup	util.c	/^char * xstrdup (char * str)$/;"	f
